@@ -1,0 +1,40 @@
+[0.013s] Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/point2d_loc': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/point2d_loc -- -j32 -l32
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target livox_to_scan[0m
+[0.062s] [ 33%] Built target point_look
+[0.066s] [ 66%] Built target pointcloud_to_laserscan
+[0.074s] [ 83%] [32mBuilding CXX object CMakeFiles/livox_to_scan.dir/src/livox_to_scan.cpp.o[0m
+[5.967s] [100%] [32m[1mLinking CXX executable livox_to_scan[0m
+[6.383s] [100%] Built target livox_to_scan
+[6.395s] Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/point2d_loc' returned '0': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/point2d_loc -- -j32 -l32
+[6.396s] Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/point2d_loc': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/point2d_loc
+[6.407s] -- Install configuration: ""
+[6.407s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/lib/point2d_loc/pointcloud_to_laserscan
+[6.407s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/lib/point2d_loc/point_look
+[6.407s] -- Installing: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/lib/point2d_loc/livox_to_scan
+[6.410s] -- Set runtime path of "/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/lib/point2d_loc/livox_to_scan" to ""
+[6.411s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/launch
+[6.411s] -- Installing: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/launch/laser_tf_pub.launch.py
+[6.411s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/launch/pointcloud_to_laserscan_launch.py
+[6.411s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/map
+[6.411s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/map/office2.pgm
+[6.411s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/map/test.pcd
+[6.412s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/map/office2.yaml
+[6.412s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/rviz
+[6.412s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/rviz/loc_map.rviz
+[6.412s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/rviz/rviz.rviz
+[6.412s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/ament_index/resource_index/package_run_dependencies/point2d_loc
+[6.412s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/ament_index/resource_index/parent_prefix_path/point2d_loc
+[6.412s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/environment/ament_prefix_path.sh
+[6.412s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/environment/ament_prefix_path.dsv
+[6.412s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/environment/path.sh
+[6.412s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/environment/path.dsv
+[6.412s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/local_setup.bash
+[6.412s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/local_setup.sh
+[6.412s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/local_setup.zsh
+[6.412s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/local_setup.dsv
+[6.412s] -- Installing: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/package.dsv
+[6.412s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/ament_index/resource_index/packages/point2d_loc
+[6.412s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/cmake/point2d_locConfig.cmake
+[6.412s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/cmake/point2d_locConfig-version.cmake
+[6.413s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/package.xml
+[6.415s] Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/point2d_loc' returned '0': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/point2d_loc

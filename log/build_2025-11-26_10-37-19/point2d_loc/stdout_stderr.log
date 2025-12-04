@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target livox_to_scan[0m
+[ 33%] Built target point_look
+[ 66%] Built target pointcloud_to_laserscan
+[ 83%] [32mBuilding CXX object CMakeFiles/livox_to_scan.dir/src/livox_to_scan.cpp.o[0m
+[100%] [32m[1mLinking CXX executable livox_to_scan[0m
+[100%] Built target livox_to_scan
+-- Install configuration: ""
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/lib/point2d_loc/pointcloud_to_laserscan
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/lib/point2d_loc/point_look
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/lib/point2d_loc/livox_to_scan
+-- Set runtime path of "/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/lib/point2d_loc/livox_to_scan" to ""
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/launch
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/launch/laser_tf_pub.launch.py
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/launch/pointcloud_to_laserscan_launch.py
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/map
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/map/office2.pgm
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/map/test.pcd
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/map/office2.yaml
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/rviz
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/rviz/loc_map.rviz
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/rviz/rviz.rviz
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/ament_index/resource_index/package_run_dependencies/point2d_loc
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/ament_index/resource_index/parent_prefix_path/point2d_loc
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/environment/path.sh
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/environment/path.dsv
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/local_setup.bash
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/local_setup.sh
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/local_setup.zsh
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/local_setup.dsv
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/package.dsv
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/ament_index/resource_index/packages/point2d_loc
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/cmake/point2d_locConfig.cmake
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/cmake/point2d_locConfig-version.cmake
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/package.xml

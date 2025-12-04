@@ -1,0 +1,6 @@
+Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/nav_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dongkuo/lt_ws/loc_ws/src/nav_demo -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/dongkuo/lt_ws/loc_ws/install/nav_demo
+Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/nav_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dongkuo/lt_ws/loc_ws/src/nav_demo -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/dongkuo/lt_ws/loc_ws/install/nav_demo
+Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/nav_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/nav_demo -- -j32 -l32
+Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/nav_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/nav_demo -- -j32 -l32
+Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/nav_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/nav_demo
+Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/nav_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/nav_demo

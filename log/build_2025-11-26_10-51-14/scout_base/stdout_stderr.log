@@ -1,0 +1,13 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/scout_base_node.dir/src/scout_base_ros.cpp.o[0m
+In file included from [01m[K/home/dongkuo/lt_ws/loc_ws/src/scout_ros2_driver/scout_ros2/scout_base/src/scout_base_ros.cpp:12[m[K:
+[01m[K/home/dongkuo/lt_ws/loc_ws/src/scout_ros2_driver/scout_ros2/scout_base/include/scout_base/scout_messenger.hpp:[m[K In member function ‘[01m[Kvoid westonrobot::ScoutMessenger<ScoutType>::PublishOdometryToROS(const MotionStateMessage&, double)[m[K’:
+[01m[K/home/dongkuo/lt_ws/loc_ws/src/scout_ros2_driver/scout_ros2/scout_base/include/scout_base/scout_messenger.hpp:274:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish[m[K’ was not declared in this scope
+  274 |     [01;31m[Kpublish[m[K tf transformation
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/dongkuo/lt_ws/loc_ws/src/scout_ros2_driver/scout_ros2/scout_base/include/scout_base/scout_messenger.hpp:276:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Ktf2_msgs[m[K’?
+  276 |     [01;31m[Ktf_msg[m[K.header.stamp = current_time_;
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktf2_msgs[m[K
+gmake[2]: *** [CMakeFiles/scout_base_node.dir/build.make:76: CMakeFiles/scout_base_node.dir/src/scout_base_ros.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/scout_base_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

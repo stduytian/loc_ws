@@ -1,0 +1,5 @@
+[01m[K/home/dongkuo/lt_ws/loc_ws/src/point2d_loc/src/pointcloud_to_laserscan.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::OccupancyGrid PointCloudTFNode::loadMap(const string&, double, const string&)[m[K’:
+[01m[K/home/dongkuo/lt_ws/loc_ws/src/point2d_loc/src/pointcloud_to_laserscan.cpp:316:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresolution[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  316 | :string &pgm_file, [01;35m[Kdouble resolution[m[K, const std::string &override_image_file = "")
+      |                    [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+

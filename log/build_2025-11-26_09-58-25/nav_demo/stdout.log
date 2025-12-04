@@ -1,0 +1,76 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/vulcanexus/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/dongkuo/lt_ws/loc_ws/src/nav_demo/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dongkuo/lt_ws/loc_ws/build/nav_demo
+[35m[1mConsolidate compiler generated dependencies of target simple_navigator[0m
+[100%] Built target simple_navigator
+-- Install configuration: ""
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/lib/nav_demo/simple_navigator
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/launch
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/launch/nav.launch.py
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/launch/nav2_odom_navigation.launch.py
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/first_floor1.yaml
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/first_floor1.pgm
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/my_2d_map1.yaml
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/office2.pgm
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/sec_floor.yaml
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/my_2d_map.pgm
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/neibor_office2.pgm
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/test.pcd
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/sec_floor.pgm
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/neibor_office.pgm
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/office1.yaml
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/my_2d_map1.pgm
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/office2.yaml
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/office1.pgm
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/neibor_office.yaml
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/neibor_office2.yaml
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/my_2d_map.yaml
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/rviz
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/rviz/navi.rviz
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/config
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/config/nav2_params_wpr.yaml
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/config/nav2_params2.yaml
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/config/nav2_params.yaml
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/config/nav2_params1.yaml
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/ament_index/resource_index/package_run_dependencies/nav_demo
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/ament_index/resource_index/parent_prefix_path/nav_demo
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/environment/ament_prefix_path.sh
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/environment/path.sh
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/environment/path.dsv
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/local_setup.bash
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/local_setup.sh
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/local_setup.zsh
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/local_setup.dsv
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/package.dsv
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/ament_index/resource_index/packages/nav_demo
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/cmake/nav_demoConfig.cmake
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/cmake/nav_demoConfig-version.cmake
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/package.xml

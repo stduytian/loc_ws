@@ -1,0 +1,649 @@
+[0.047s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.048s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74558585e6b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74558595faf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74558595faf0>>)
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.125s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dongkuo/lt_ws/loc_ws'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'ros'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['cmake', 'python']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'cmake'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'python'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['python_setup_py']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'python_setup_py'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/FAST_LIO) by extension 'ros'
+[0.133s] DEBUG:colcon.colcon_core.package_identification:Package 'src/FAST_LIO' with type 'ros.ament_cmake' and name 'fast_lio'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ros'
+[0.134s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_demo) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_demo) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_demo) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_demo) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_demo) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_demo) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_demo) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_demo) by extension 'ros'
+[0.134s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav_demo' with type 'ros.ament_cmake' and name 'nav_demo'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/point2d_loc) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/point2d_loc) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/point2d_loc) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/point2d_loc) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/point2d_loc) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/point2d_loc) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/point2d_loc) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/point2d_loc) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/point2d_loc) by extension 'ros'
+[0.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/point2d_loc' with type 'ros.ament_cmake' and name 'point2d_loc'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver) by extension 'ros'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver) by extensions ['cmake', 'python']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver) by extension 'cmake'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_base) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_base) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_base) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_base) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_base) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_base) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_base) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_base) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_base) by extension 'ros'
+[0.137s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_ros2_driver/scout_ros2/scout_base' with type 'ros.ament_cmake' and name 'scout_base'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_description) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_description) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_description) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_description) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_description) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_description) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_description) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_description) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_description) by extension 'ros'
+[0.137s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_ros2_driver/scout_ros2/scout_description' with type 'ros.ament_cmake' and name 'scout_description'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_msgs) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_msgs) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_msgs) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_msgs) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_msgs) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_msgs) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_msgs) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/scout_ros2/scout_msgs) by extension 'ros'
+[0.138s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_ros2_driver/scout_ros2/scout_msgs' with type 'ros.ament_cmake' and name 'scout_msgs'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/ugv_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/ugv_sdk) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/ugv_sdk) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/ugv_sdk) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/ugv_sdk) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/ugv_sdk) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/ugv_sdk) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/ugv_sdk) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/scout_ros2_driver/ugv_sdk) by extension 'ros'
+[0.143s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scout_ros2_driver/ugv_sdk' with type 'ros.catkin' and name 'ugv_sdk'
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.154s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/dongkuo/lt_ws/loc_ws/install
+[0.154s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /opt/vulcanexus/humble
+[0.154s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/dongkuo/lt_ws/realsense_ws/install
+[0.155s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 456 installed packages in /opt/ros/humble
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.181s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dongkuo/lt_ws/loc_ws/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/dongkuo/lt_ws/loc_ws/src/livox_ros_driver2', 'symlink_install': False, 'test_result_base': None}
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'nav_demo' build argument 'cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'nav_demo' build argument 'cmake_target' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'nav_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'nav_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'nav_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'nav_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'nav_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'nav_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.181s] Level 5:colcon.colcon_core.verb:set package 'nav_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.182s] DEBUG:colcon.colcon_core.verb:Building package 'nav_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dongkuo/lt_ws/loc_ws/build/nav_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dongkuo/lt_ws/loc_ws/install/nav_demo', 'merge_install': False, 'path': '/home/dongkuo/lt_ws/loc_ws/src/nav_demo', 'symlink_install': False, 'test_result_base': None}
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'point2d_loc' build argument 'cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'point2d_loc' build argument 'cmake_target' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'point2d_loc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'point2d_loc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'point2d_loc' build argument 'cmake_clean_first' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'point2d_loc' build argument 'cmake_force_configure' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'point2d_loc' build argument 'ament_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'point2d_loc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'point2d_loc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.182s] DEBUG:colcon.colcon_core.verb:Building package 'point2d_loc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dongkuo/lt_ws/loc_ws/build/point2d_loc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc', 'merge_install': False, 'path': '/home/dongkuo/lt_ws/loc_ws/src/point2d_loc', 'symlink_install': False, 'test_result_base': None}
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_target' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'scout_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.182s] DEBUG:colcon.colcon_core.verb:Building package 'scout_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dongkuo/lt_ws/loc_ws/build/scout_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dongkuo/lt_ws/loc_ws/install/scout_description', 'merge_install': False, 'path': '/home/dongkuo/lt_ws/loc_ws/src/scout_ros2_driver/scout_ros2/scout_description', 'symlink_install': False, 'test_result_base': None}
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'cmake_target' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'scout_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.182s] DEBUG:colcon.colcon_core.verb:Building package 'scout_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dongkuo/lt_ws/loc_ws/build/scout_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs', 'merge_install': False, 'path': '/home/dongkuo/lt_ws/loc_ws/src/scout_ros2_driver/scout_ros2/scout_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_target' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.182s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.182s] DEBUG:colcon.colcon_core.verb:Building package 'ugv_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dongkuo/lt_ws/loc_ws/build/ugv_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk', 'merge_install': False, 'path': '/home/dongkuo/lt_ws/loc_ws/src/scout_ros2_driver/ugv_sdk', 'symlink_install': False, 'test_result_base': None}
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_first' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_force_configure' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'ament_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.183s] DEBUG:colcon.colcon_core.verb:Building package 'fast_lio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dongkuo/lt_ws/loc_ws/build/fast_lio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dongkuo/lt_ws/loc_ws/install/fast_lio', 'merge_install': False, 'path': '/home/dongkuo/lt_ws/loc_ws/src/FAST_LIO', 'symlink_install': False, 'test_result_base': None}
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'cmake_target' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'scout_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.183s] DEBUG:colcon.colcon_core.verb:Building package 'scout_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dongkuo/lt_ws/loc_ws/build/scout_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dongkuo/lt_ws/loc_ws/install/scout_base', 'merge_install': False, 'path': '/home/dongkuo/lt_ws/loc_ws/src/scout_ros2_driver/scout_ros2/scout_base', 'symlink_install': False, 'test_result_base': None}
+[0.183s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.184s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.184s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dongkuo/lt_ws/loc_ws/src/livox_ros_driver2' with build type 'ament_cmake'
+[0.184s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dongkuo/lt_ws/loc_ws/src/livox_ros_driver2'
+[0.185s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.187s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dongkuo/lt_ws/loc_ws/src/scout_ros2_driver/scout_ros2/scout_msgs' with build type 'ament_cmake'
+[0.187s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dongkuo/lt_ws/loc_ws/src/scout_ros2_driver/scout_ros2/scout_msgs'
+[0.187s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.187s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.190s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/dongkuo/lt_ws/loc_ws/src/scout_ros2_driver/ugv_sdk' with build type 'catkin'
+[0.190s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dongkuo/lt_ws/loc_ws/src/scout_ros2_driver/ugv_sdk'
+[0.190s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.190s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.192s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dongkuo/lt_ws/loc_ws/src/nav_demo' with build type 'ament_cmake'
+[0.192s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dongkuo/lt_ws/loc_ws/src/nav_demo'
+[0.192s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.192s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.194s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dongkuo/lt_ws/loc_ws/src/point2d_loc' with build type 'ament_cmake'
+[0.194s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dongkuo/lt_ws/loc_ws/src/point2d_loc'
+[0.194s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.194s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.197s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dongkuo/lt_ws/loc_ws/src/scout_ros2_driver/scout_ros2/scout_description' with build type 'ament_cmake'
+[0.197s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dongkuo/lt_ws/loc_ws/src/scout_ros2_driver/scout_ros2/scout_description'
+[0.197s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.197s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/livox_ros_driver2 -- -j32 -l32
+[0.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/scout_msgs': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/scout_msgs -- -j32 -l32
+[0.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/ugv_sdk': /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/ugv_sdk -- -j32 -l32
+[0.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/nav_demo': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/nav_demo -- -j32 -l32
+[0.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/point2d_loc': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/point2d_loc -- -j32 -l32
+[0.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/scout_description': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/scout_description -- -j32 -l32
+[0.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/scout_description -- -j32 -l32
+[0.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/scout_description': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/scout_description
+[0.255s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_description)
+[0.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/scout_description
+[0.259s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_description' for CMake module files
+[0.260s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_description' for CMake config files
+[0.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_description', 'cmake_prefix_path')
+[0.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/scout_description/share/scout_description/hook/cmake_prefix_path.ps1'
+[0.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/scout_description/share/scout_description/hook/cmake_prefix_path.dsv'
+[0.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/scout_description/share/scout_description/hook/cmake_prefix_path.sh'
+[0.263s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_description/bin'
+[0.263s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_description/lib/pkgconfig/scout_description.pc'
+[0.263s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_description/lib/python3.10/site-packages'
+[0.263s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_description/bin'
+[0.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_description/share/scout_description/package.ps1'
+[0.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dongkuo/lt_ws/loc_ws/install/scout_description/share/scout_description/package.dsv'
+[0.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_description/share/scout_description/package.sh'
+[0.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_description/share/scout_description/package.bash'
+[0.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_description/share/scout_description/package.zsh'
+[0.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dongkuo/lt_ws/loc_ws/install/scout_description/share/colcon-core/packages/scout_description)
+[0.267s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_description)
+[0.268s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_description' for CMake module files
+[0.268s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_description' for CMake config files
+[0.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_description', 'cmake_prefix_path')
+[0.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/scout_description/share/scout_description/hook/cmake_prefix_path.ps1'
+[0.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/scout_description/share/scout_description/hook/cmake_prefix_path.dsv'
+[0.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/scout_description/share/scout_description/hook/cmake_prefix_path.sh'
+[0.269s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_description/bin'
+[0.269s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_description/lib/pkgconfig/scout_description.pc'
+[0.269s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_description/lib/python3.10/site-packages'
+[0.269s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_description/bin'
+[0.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_description/share/scout_description/package.ps1'
+[0.271s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dongkuo/lt_ws/loc_ws/install/scout_description/share/scout_description/package.dsv'
+[0.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_description/share/scout_description/package.sh'
+[0.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_description/share/scout_description/package.bash'
+[0.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_description/share/scout_description/package.zsh'
+[0.273s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dongkuo/lt_ws/loc_ws/install/scout_description/share/colcon-core/packages/scout_description)
+[0.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/nav_demo' returned '0': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/nav_demo -- -j32 -l32
+[0.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/nav_demo': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/nav_demo
+[0.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/point2d_loc' returned '0': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/point2d_loc -- -j32 -l32
+[0.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/point2d_loc': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/point2d_loc
+[0.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/ugv_sdk -- -j32 -l32
+[0.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/ugv_sdk': /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/ugv_sdk
+[0.282s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_demo)
+[0.282s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/nav_demo' for CMake module files
+[0.283s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/nav_demo' for CMake config files
+[0.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_demo', 'cmake_prefix_path')
+[0.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/hook/cmake_prefix_path.ps1'
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/hook/cmake_prefix_path.dsv'
+[0.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/nav_demo' returned '0': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/nav_demo
+[0.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/hook/cmake_prefix_path.sh'
+[0.288s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/lib'
+[0.289s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/bin'
+[0.289s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/lib/pkgconfig/nav_demo.pc'
+[0.289s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/lib/python3.10/site-packages'
+[0.289s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/bin'
+[0.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/package.ps1'
+[0.291s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/package.dsv'
+[0.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/package.sh'
+[0.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/package.bash'
+[0.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/package.zsh'
+[0.293s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/colcon-core/packages/nav_demo)
+[0.294s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_demo)
+[0.294s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/nav_demo' for CMake module files
+[0.295s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/nav_demo' for CMake config files
+[0.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_demo', 'cmake_prefix_path')
+[0.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/hook/cmake_prefix_path.ps1'
+[0.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/hook/cmake_prefix_path.dsv'
+[0.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/hook/cmake_prefix_path.sh'
+[0.298s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/lib'
+[0.298s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/bin'
+[0.298s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/lib/pkgconfig/nav_demo.pc'
+[0.298s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/lib/python3.10/site-packages'
+[0.298s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/bin'
+[0.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/package.ps1'
+[0.299s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/package.dsv'
+[0.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/package.sh'
+[0.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/package.bash'
+[0.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/package.zsh'
+[0.300s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/colcon-core/packages/nav_demo)
+[0.301s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(point2d_loc)
+[0.301s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc' for CMake module files
+[0.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/point2d_loc' returned '0': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/point2d_loc
+[0.302s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc' for CMake config files
+[0.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('point2d_loc', 'cmake_prefix_path')
+[0.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/hook/cmake_prefix_path.ps1'
+[0.303s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/hook/cmake_prefix_path.dsv'
+[0.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/hook/cmake_prefix_path.sh'
+[0.304s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/lib'
+[0.304s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/bin'
+[0.304s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/lib/pkgconfig/point2d_loc.pc'
+[0.304s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/lib/python3.10/site-packages'
+[0.304s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/bin'
+[0.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/package.ps1'
+[0.305s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/package.dsv'
+[0.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/package.sh'
+[0.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/package.bash'
+[0.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/package.zsh'
+[0.307s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/colcon-core/packages/point2d_loc)
+[0.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(point2d_loc)
+[0.307s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc' for CMake module files
+[0.308s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc' for CMake config files
+[0.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('point2d_loc', 'cmake_prefix_path')
+[0.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/hook/cmake_prefix_path.ps1'
+[0.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/hook/cmake_prefix_path.dsv'
+[0.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/hook/cmake_prefix_path.sh'
+[0.309s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/lib'
+[0.309s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/bin'
+[0.309s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/lib/pkgconfig/point2d_loc.pc'
+[0.310s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/lib/python3.10/site-packages'
+[0.310s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/bin'
+[0.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/package.ps1'
+[0.311s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/package.dsv'
+[0.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/package.sh'
+[0.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/package.bash'
+[0.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/point2d_loc/package.zsh'
+[0.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dongkuo/lt_ws/loc_ws/install/point2d_loc/share/colcon-core/packages/point2d_loc)
+[0.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'ros_package_path')
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.ps1'
+[0.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/ugv_sdk
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.dsv'
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.sh'
+[0.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'pkg_config_path')
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.ps1'
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.dsv'
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.sh'
+[0.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'pkg_config_path_multiarch')
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.ps1'
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.dsv'
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.sh'
+[0.318s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv_sdk)
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk' for CMake module files
+[0.319s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk' for CMake config files
+[0.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'cmake_prefix_path')
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.ps1'
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.dsv'
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.sh'
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/lib'
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/bin'
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/lib/pkgconfig/ugv_sdk.pc'
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/lib/python3.10/site-packages'
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/bin'
+[0.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/share/ugv_sdk/package.ps1'
+[0.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/share/ugv_sdk/package.dsv'
+[0.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/share/ugv_sdk/package.sh'
+[0.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/share/ugv_sdk/package.bash'
+[0.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/share/ugv_sdk/package.zsh'
+[0.321s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk/share/colcon-core/packages/ugv_sdk)
+[0.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/scout_msgs' returned '0': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/scout_msgs -- -j32 -l32
+[0.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/scout_msgs': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/scout_msgs
+[0.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/livox_ros_driver2 -- -j32 -l32
+[0.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/livox_ros_driver2
+[0.433s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_msgs)
+[0.433s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs' for CMake module files
+[0.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/scout_msgs' returned '0': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/scout_msgs
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs' for CMake config files
+[0.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_msgs', 'cmake_prefix_path')
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/hook/cmake_prefix_path.ps1'
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/hook/cmake_prefix_path.dsv'
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/hook/cmake_prefix_path.sh'
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/lib'
+[0.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_msgs', 'ld_library_path_lib')
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/hook/ld_library_path_lib.ps1'
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/hook/ld_library_path_lib.dsv'
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/hook/ld_library_path_lib.sh'
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/bin'
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/lib/pkgconfig/scout_msgs.pc'
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/lib/python3.10/site-packages'
+[0.436s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/bin'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/package.ps1'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/package.dsv'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/package.sh'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/package.bash'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/package.zsh'
+[0.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/colcon-core/packages/scout_msgs)
+[0.437s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_msgs)
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs' for CMake module files
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs' for CMake config files
+[0.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_msgs', 'cmake_prefix_path')
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/hook/cmake_prefix_path.ps1'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/hook/cmake_prefix_path.dsv'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/hook/cmake_prefix_path.sh'
+[0.438s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/lib'
+[0.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_msgs', 'ld_library_path_lib')
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/hook/ld_library_path_lib.ps1'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/hook/ld_library_path_lib.dsv'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/hook/ld_library_path_lib.sh'
+[0.438s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/bin'
+[0.438s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/lib/pkgconfig/scout_msgs.pc'
+[0.439s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/lib/python3.10/site-packages'
+[0.439s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/bin'
+[0.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/package.ps1'
+[0.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/package.dsv'
+[0.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/package.sh'
+[0.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/package.bash'
+[0.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/scout_msgs/package.zsh'
+[0.440s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/share/colcon-core/packages/scout_msgs)
+[0.440s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dongkuo/lt_ws/loc_ws/src/scout_ros2_driver/scout_ros2/scout_base' with build type 'ament_cmake'
+[0.441s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dongkuo/lt_ws/loc_ws/src/scout_ros2_driver/scout_ros2/scout_base'
+[0.441s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.441s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/scout_base': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_base:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/scout_base -- -j32 -l32
+[0.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[0.466s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2' for CMake module files
+[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2' for CMake config files
+[0.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[0.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[0.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[0.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[0.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/livox_ros_driver2
+[0.470s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/lib'
+[0.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/bin'
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/lib/python3.10/site-packages'
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/bin'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[0.473s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[0.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[0.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[0.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[0.475s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2' for CMake module files
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2' for CMake config files
+[0.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/lib'
+[0.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[0.479s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/bin'
+[0.479s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[0.479s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/lib/python3.10/site-packages'
+[0.479s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/bin'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[0.480s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[0.480s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dongkuo/lt_ws/loc_ws/src/FAST_LIO' with build type 'ament_cmake'
+[0.480s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dongkuo/lt_ws/loc_ws/src/FAST_LIO'
+[0.480s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/fast_lio': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble LD_LIBRARY_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/lib:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/lib:/home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs/lib:/opt/vulcanexus/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/fast_lio -- -j32 -l32
+[0.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/scout_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_base:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/scout_base -- -j32 -l32
+[0.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/scout_base': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_base:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/scout_base
+[0.514s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_base)
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_base' for CMake module files
+[0.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/scout_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_base:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/scout_base
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_base' for CMake config files
+[0.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_base', 'cmake_prefix_path')
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/scout_base/share/scout_base/hook/cmake_prefix_path.ps1'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/scout_base/share/scout_base/hook/cmake_prefix_path.dsv'
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/scout_base/share/scout_base/hook/cmake_prefix_path.sh'
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_base/lib'
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_base/bin'
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_base/lib/pkgconfig/scout_base.pc'
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_base/lib/python3.10/site-packages'
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_base/bin'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_base/share/scout_base/package.ps1'
+[0.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dongkuo/lt_ws/loc_ws/install/scout_base/share/scout_base/package.dsv'
+[0.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_base/share/scout_base/package.sh'
+[0.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_base/share/scout_base/package.bash'
+[0.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_base/share/scout_base/package.zsh'
+[0.517s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dongkuo/lt_ws/loc_ws/install/scout_base/share/colcon-core/packages/scout_base)
+[0.518s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scout_base)
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_base' for CMake module files
+[0.518s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_base' for CMake config files
+[0.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('scout_base', 'cmake_prefix_path')
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/scout_base/share/scout_base/hook/cmake_prefix_path.ps1'
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/scout_base/share/scout_base/hook/cmake_prefix_path.dsv'
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/scout_base/share/scout_base/hook/cmake_prefix_path.sh'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_base/lib'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_base/bin'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_base/lib/pkgconfig/scout_base.pc'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_base/lib/python3.10/site-packages'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/scout_base/bin'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_base/share/scout_base/package.ps1'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dongkuo/lt_ws/loc_ws/install/scout_base/share/scout_base/package.dsv'
+[0.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_base/share/scout_base/package.sh'
+[0.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_base/share/scout_base/package.bash'
+[0.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/scout_base/share/scout_base/package.zsh'
+[0.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dongkuo/lt_ws/loc_ws/install/scout_base/share/colcon-core/packages/scout_base)
+[0.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble LD_LIBRARY_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/lib:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/lib:/home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs/lib:/opt/vulcanexus/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/fast_lio -- -j32 -l32
+[0.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/fast_lio': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble LD_LIBRARY_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/lib:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/lib:/home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs/lib:/opt/vulcanexus/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/fast_lio
+[0.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[0.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble LD_LIBRARY_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/lib:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/lib:/home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs/lib:/opt/vulcanexus/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/fast_lio
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/fast_lio' for CMake module files
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/fast_lio' for CMake config files
+[0.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'cmake_prefix_path')
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib'
+[0.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'ld_library_path_lib')
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/bin'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib/python3.10/site-packages'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/bin'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/package.ps1'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/package.dsv'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/package.sh'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/package.bash'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/package.zsh'
+[0.719s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/colcon-core/packages/fast_lio)
+[0.720s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/fast_lio' for CMake module files
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/fast_lio' for CMake config files
+[0.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'cmake_prefix_path')
+[0.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[0.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[0.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib'
+[0.721s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'ld_library_path_lib')
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/bin'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib/python3.10/site-packages'
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/bin'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/package.ps1'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/package.dsv'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/package.sh'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/package.bash'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/package.zsh'
+[0.723s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/colcon-core/packages/fast_lio)
+[0.723s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.723s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.723s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.723s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.726s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.726s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.727s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.734s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.734s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dongkuo/lt_ws/loc_ws/install/local_setup.ps1'
+[0.735s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dongkuo/lt_ws/loc_ws/install/_local_setup_util_ps1.py'
+[0.736s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dongkuo/lt_ws/loc_ws/install/setup.ps1'
+[0.736s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dongkuo/lt_ws/loc_ws/install/local_setup.sh'
+[0.737s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dongkuo/lt_ws/loc_ws/install/_local_setup_util_sh.py'
+[0.737s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dongkuo/lt_ws/loc_ws/install/setup.sh'
+[0.738s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dongkuo/lt_ws/loc_ws/install/local_setup.bash'
+[0.738s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dongkuo/lt_ws/loc_ws/install/setup.bash'
+[0.739s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dongkuo/lt_ws/loc_ws/install/local_setup.zsh'
+[0.739s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dongkuo/lt_ws/loc_ws/install/setup.zsh'

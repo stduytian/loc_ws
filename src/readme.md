@@ -1,0 +1,1 @@
+ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node   --ros-args   --remap cloud_in:=cloud_registered_body  --remap scan:=/scan_body  --params-file /home/dongkuo/lt_ws/loc_ws/src/FAST_LIO/config/pc2scan_params.yaml

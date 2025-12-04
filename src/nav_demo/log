@@ -1,0 +1,6 @@
+[lifecycle_manager-7] [INFO] [1764037290.890426548] [lifecycle_manager]: Activating bt_navigator
+[bt_navigator-5] [INFO] [1764037290.890684490] [bt_navigator]: Activating
+[bt_navigator-5] [ERROR] [1764037290.890723229] [bt_navigator]: Couldn't open input XML file: navigate_through_poses_w_replanning_and_recovery.xml
+[bt_navigator-5] [ERROR] [1764037290.890730419] [bt_navigator]: Error loading XML file: navigate_through_poses_w_replanning_and_recovery.xml
+[lifecycle_manager-7] [ERROR] [1764037290.891272554] [lifecycle_manager]: Failed to change state for node: bt_navigator
+[lifecycle_manager-7] [ERROR] [1764037290.891289213] [lifecycle_manager]: Failed to bring up all requested nodes. Aborting bringup.

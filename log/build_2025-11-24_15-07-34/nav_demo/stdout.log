@@ -1,0 +1,25 @@
+[100%] Built target simple_navigator
+-- Install configuration: ""
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/lib/nav_demo/simple_navigator
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/launch
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/launch/nav2_odom_navigation.launch.py
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/config
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/config/nav2_params2.yaml
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/config/nav2_params.yaml
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/config/nav2_params copy.yaml
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/config/nav2_params1.yaml
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/ament_index/resource_index/package_run_dependencies/nav_demo
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/ament_index/resource_index/parent_prefix_path/nav_demo
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/environment/path.sh
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/environment/path.dsv
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/local_setup.bash
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/local_setup.sh
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/local_setup.zsh
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/local_setup.dsv
+-- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/package.dsv
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/ament_index/resource_index/packages/nav_demo
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/cmake/nav_demoConfig.cmake
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/cmake/nav_demoConfig-version.cmake
+-- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/package.xml

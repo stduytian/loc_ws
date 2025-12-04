@@ -1,0 +1,64 @@
+[0.017s] Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/fast_lio': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble LD_LIBRARY_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/lib:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/lib:/home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs/lib:/opt/vulcanexus/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/fast_lio -- -j32 -l32
+[0.062s] [  2%] Built target fast_lio__cpp
+[0.062s] [ 10%] Built target fast_lio__rosidl_generator_c
+[0.068s] [ 10%] Built target ament_cmake_python_copy_fast_lio
+[0.073s] [ 16%] Built target pcd_publisher
+[0.077s] [ 24%] Built target fast_lio__rosidl_typesupport_c
+[0.078s] [ 32%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[0.078s] [ 40%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[0.079s] [ 48%] Built target fast_lio__rosidl_typesupport_introspection_c
+[0.079s] [ 56%] Built target fast_lio__rosidl_typesupport_cpp
+[0.082s] [ 64%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target fastlio_mapping[0m
+[0.095s] [ 64%] Built target fast_lio
+[0.111s] [ 67%] Built target fast_lio__py
+[0.119s] [ 70%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[0.130s] [ 75%] Built target fast_lio__rosidl_generator_py
+[0.147s] [ 81%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[0.148s] [ 86%] Built target fast_lio__rosidl_typesupport_c__pyext
+[0.148s] [ 91%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[0.205s] running egg_info
+[0.206s] writing fast_lio.egg-info/PKG-INFO
+[0.206s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[0.206s] writing top-level names to fast_lio.egg-info/top_level.txt
+[0.208s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.208s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.226s] [ 91%] Built target ament_cmake_python_build_fast_lio_egg
+[3.001s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[3.001s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[3.001s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[3.001s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[3.001s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[3.001s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[3.001s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[3.001s]                  from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+[3.001s]                  from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+[3.001s]                  from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+[3.001s]                  from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+[3.001s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+[3.001s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73[m[K,
+[3.001s]                  from [01m[K/home/dongkuo/lt_ws/loc_ws/src/FAST_LIO/src/IMU_Processing.hpp:18[m[K,
+[3.001s]                  from [01m[K/home/dongkuo/lt_ws/loc_ws/src/FAST_LIO/src/laserMapping.cpp:47[m[K:
+[3.001s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[3.001s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[3.002s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.684s] [01m[K/home/dongkuo/lt_ws/loc_ws/src/FAST_LIO/src/laserMapping.cpp:[m[K In function ‘[01m[Kvoid publish_odometry(rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > >::SharedPtr, std::unique_ptr<tf2_ros::TransformBroadcaster>&)[m[K’:
+[3.684s] [01m[K/home/dongkuo/lt_ws/loc_ws/src/FAST_LIO/src/laserMapping.cpp:735:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[3.684s]   735 |     [01;31m[Ktf2[m[K::Quaternion q;
+[3.684s]       |     [01;31m[K^~~[m[K
+[3.684s] [01m[K/home/dongkuo/lt_ws/loc_ws/src/FAST_LIO/src/laserMapping.cpp:736:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[3.684s]   736 |     [01;31m[Ktf2[m[K::fromMsg(odomAftMapped.pose.pose.orientation, q);
+[3.684s]       |     [01;31m[K^~~[m[K
+[3.687s] [01m[K/home/dongkuo/lt_ws/loc_ws/src/FAST_LIO/src/laserMapping.cpp:736:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+[3.688s]   736 |     tf2::fromMsg(odomAftMapped.pose.pose.orientation, [01;31m[Kq[m[K);
+[3.688s]       |                                                       [01;31m[K^[m[K
+[3.688s] [01m[K/home/dongkuo/lt_ws/loc_ws/src/FAST_LIO/src/laserMapping.cpp:738:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[3.688s]   738 |     [01;31m[Ktf2[m[K::Matrix3x3(q).getRPY(roll, pitch, yaw);
+[3.688s]       |     [01;31m[K^~~[m[K
+[3.688s] [01m[K/home/dongkuo/lt_ws/loc_ws/src/FAST_LIO/src/laserMapping.cpp:741:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[3.688s]   741 |     odomAftMapped.pose.pose.orientation = [01;31m[Ktf2[m[K::toMsg(q);
+[3.688s]       |                                           [01;31m[K^~~[m[K
+[23.168s] gmake[2]: *** [CMakeFiles/fastlio_mapping.dir/build.make:76: CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o] Error 1
+[23.168s] gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/fastlio_mapping.dir/all] Error 2
+[23.169s] gmake: *** [Makefile:146: all] Error 2
+[23.171s] Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/fast_lio' returned '2': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble LD_LIBRARY_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/lib:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/lib:/home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs/lib:/opt/vulcanexus/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/fast_lio -- -j32 -l32

@@ -1,0 +1,169 @@
+[0.010s] Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/fast_lio': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble LD_LIBRARY_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/lib:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/lib:/home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs/lib:/opt/vulcanexus/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/fast_lio -- -j32 -l32
+[0.044s] [  2%] Built target fast_lio__cpp
+[0.045s] [ 10%] Built target fast_lio__rosidl_generator_c
+[0.052s] [ 10%] Built target ament_cmake_python_copy_fast_lio
+[0.052s] [ 12%] [32mBuilding CXX object CMakeFiles/pcd_publisher.dir/src/pcd_publisher.cpp.o[0m
+[0.056s] [ 17%] Built target pcd_to_grid
+[0.058s] [ 25%] Built target fast_lio__rosidl_typesupport_introspection_c
+[0.059s] [ 33%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[0.059s] [ 43%] Built target fast_lio__rosidl_typesupport_cpp
+[0.059s] [ 48%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[0.060s] [ 56%] Built target fast_lio__rosidl_typesupport_c
+[0.060s] [ 64%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[0.074s] [ 64%] Built target fast_lio
+[0.087s] [ 66%] Built target fast_lio__py
+[0.088s] [ 76%] Built target fastlio_mapping
+[0.106s] [ 82%] Built target fast_lio__rosidl_generator_py
+[0.121s] [ 97%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[0.121s] [ 97%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[0.121s] [ 97%] Built target fast_lio__rosidl_typesupport_c__pyext
+[0.188s] running egg_info
+[0.188s] writing fast_lio.egg-info/PKG-INFO
+[0.188s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[0.188s] writing top-level names to fast_lio.egg-info/top_level.txt
+[0.189s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.190s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.206s] [ 97%] Built target ament_cmake_python_build_fast_lio_egg
+[3.829s] [100%] [32m[1mLinking CXX executable pcd_publisher[0m
+[4.082s] [100%] Built target pcd_publisher
+[4.094s] Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble LD_LIBRARY_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/lib:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/lib:/home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs/lib:/opt/vulcanexus/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/fast_lio -- -j32 -l32
+[4.096s] Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/fast_lio': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble LD_LIBRARY_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/lib:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/lib:/home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs/lib:/opt/vulcanexus/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/fast_lio
+[4.103s] -- Install configuration: "Release"
+[4.103s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio
+[4.103s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio
+[4.103s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg
+[4.103s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[4.103s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h
+[4.103s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h
+[4.103s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h
+[4.103s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.c
+[4.103s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h
+[4.103s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h
+[4.103s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/environment/library_path.sh
+[4.103s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/environment/library_path.dsv
+[4.103s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so
+[4.103s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio
+[4.103s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg
+[4.103s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.103s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/dds_fastrtps
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.c
+[4.104s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+[4.105s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.105s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so
+[4.105s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so
+[4.105s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio
+[4.105s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg
+[4.105s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[4.105s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.cpp
+[4.105s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+[4.105s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so
+[4.105s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so
+[4.105s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/environment/pythonpath.sh
+[4.105s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/environment/pythonpath.dsv
+[4.105s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info
+[4.105s] -- Installing: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.105s] -- Installing: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt
+[4.105s] -- Installing: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.105s] -- Installing: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO
+[4.105s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio
+[4.105s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so
+[4.105s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.105s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c
+[4.106s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.106s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.106s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c
+[4.106s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py
+[4.106s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg
+[4.106s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py
+[4.106s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py
+[4.106s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c
+[4.106s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.126s] Listing '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...
+[4.126s] Listing '/home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...
+[4.128s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.128s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.129s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.129s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so
+[4.129s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/msg/Pose6D.idl
+[4.129s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/msg/Pose6D.msg
+[4.129s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib/fast_lio/fastlio_mapping
+[4.129s] -- Installing: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib/fast_lio/pcd_publisher
+[4.129s] -- Set runtime path of "/home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib/fast_lio/pcd_publisher" to ""
+[4.129s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib/fast_lio/pcd_to_grid
+[4.129s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/config
+[4.129s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/config/mid360.yaml
+[4.129s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/config/avia.yaml
+[4.129s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/config/velodyne.yaml
+[4.129s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/config/pc2scan_params.yaml
+[4.129s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/config/ouster64.yaml
+[4.129s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/config/horizon.yaml
+[4.129s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/launch
+[4.129s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/launch/point_look.launch .py
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/launch/mapping.launch.py
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/launch/pcd_publisher.launch.py
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/launch/online_mapping.launch.py
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/launch/pcd_to_grid.launch.py
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/rviz
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/rviz/fastlio.rviz
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/environment/path.sh
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/environment/path.dsv
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/local_setup.bash
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/local_setup.sh
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/local_setup.zsh
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/local_setup.dsv
+[4.130s] -- Installing: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/package.dsv
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/ament_index/resource_index/packages/fast_lio
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake
+[4.130s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/fast_lio/share/fast_lio/package.xml
+[4.132s] Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble LD_LIBRARY_PATH=/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2/lib:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs/lib:/home/dongkuo/lt_ws/loc_ws/install/fast_lio/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera/lib:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs/lib:/opt/vulcanexus/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/fast_lio

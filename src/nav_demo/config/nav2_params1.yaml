@@ -1,0 +1,234 @@
+/**:
+  ros__parameters:
+    use_sim_time: false
+
+    # 通用帧配置（使用 map 系导航：外部定位需提供 map->base_link 连续 TF）
+    robot_base_frame: base_link
+    odom_frame: camera_init
+    global_frame: map
+    transform_tolerance: 0.3
+
+    # 控制器服务器（使用 Regulated Pure Pursuit，输出 /cmd_vel）
+controller_server:
+  ros__parameters:
+    use_sim_time: false
+    controller_frequency: 20.0
+    min_x_velocity_threshold: 0.001
+    min_y_velocity_threshold: 0.1  # 建议调整为 0.5 以避免侧向漂移
+    min_theta_velocity_threshold: 0.001
+    odom_topic: /odom
+    cmd_vel_topic: /cmd_vel
+    controller_plugins: ["FollowPath"]
+
+    # 添加进度检查器和目标检查器（必需）
+    progress_checker_plugins: ["progress_checker"]
+    goal_checker_plugins: ["goal_checker"]
+
+    # 进度检查器配置
+    progress_checker:
+      plugin: "nav2_controller::SimpleProgressChecker"
+      required_movement_radius: 0.3
+      movement_time_allowance: 10.0
+
+    # 目标检查器配置
+    goal_checker:
+      plugin: "nav2_controller::SimpleGoalChecker"
+      xy_goal_tolerance: 0.25
+      yaw_goal_tolerance: 0.25
+      stateful: true
+
+    # FollowPath 插件配置
+    FollowPath:
+      plugin: "dwb_core::DWBLocalPlanner"
+     # 速度/轨迹基础参数（继承您的 RPP）
+      desired_linear_vel: 0.3
+      max_vel_x: 0.3
+      min_vel_x: 0.0
+      max_vel_theta: 0.5
+      min_vel_theta: -0.5
+      # 轨迹生成参数
+      sim_time: 1.5  # 模拟时间 (s)
+      vx_samples: 20
+      vtheta_samples: 20
+      # 路径评分权重
+      path_distance_bias: 32.0  # 偏好全局路径
+      goal_distance_bias: 24.0  # 接近目标
+      occdist_scale: 0.01  # 障碍成本权重
+      # DWB 核心：critics 列表（修正：用 critics 键，短名称）
+      critics: ["RotateToGoal", "Oscillation", "BaseObstacle", "GoalAlign", "PathAlign", "PathDist", "GoalDist"]
+      # 每个 critic 的扁平参数（dotted 格式，启用默认 true）
+      BaseObstacle.scale: 0.02  # 基础避障权重（调高=更保守）
+      PathAlign.scale: 32.0  # 路径对齐
+      PathAlign.forward_point_distance: 0.1
+      GoalAlign.scale: 24.0  # 目标对齐
+      GoalAlign.forward_point_distance: 0.1
+      PathDist.scale: 32.0  # 路径距离
+      GoalDist.scale: 24.0  # 目标距离
+      RotateToGoal.scale: 32.0  # 旋转到目标
+      RotateToGoal.slowing_factor: 5.0  # 减速因子
+      RotateToGoal.lookahead_time: -1.0  # 预视时间
+      Oscillation.scale: 0.02  # 防振荡（低权重避免过度）
+      # 其他继承参数
+      use_collision_detection: true
+      costmap_cost_threshold: 100  # 更敏感检测
+
+    # 规划器服务器（在 map 系上全局规划）
+    planner_server:
+      ros__parameters:
+        expected_planner_frequency: 5.0
+        planner_plugins: ["GridBased"]
+        GridBased:
+          plugin: "nav2_navfn_planner/NavfnPlanner"
+          tolerance: 0.1
+          use_astar: true
+          allow_unknown: true
+
+    # 行为树导航器
+    bt_navigator:
+      ros__parameters:
+        use_sim_time: false
+        global_frame: map
+        robot_base_frame: base_link
+        default_nav_to_pose_bt_xml: "navigate_to_pose_w_replanning_and_recovery.xml"
+        default_nav_through_poses_bt_xml: "navigate_through_poses_w_replanning_and_recovery.xml"
+        plugin_lib_names:
+          - nav2_compute_path_to_pose_action_bt_node
+          - nav2_follow_path_action_bt_node
+          - nav2_back_up_action_bt_node
+          - nav2_spin_action_bt_node
+          - nav2_wait_action_bt_node
+          - nav2_clear_costmap_service_bt_node
+          - nav2_recompute_path_to_pose_action_bt_node
+          - nav2_goal_reached_condition_bt_node
+          - nav2_is_stuck_condition_bt_node
+          - nav2_distance_traveled_condition_bt_node
+          - nav2_speed_controller_bt_node
+          - nav2_truncate_path_action_bt_node
+
+    waypoint_follower:
+      ros__parameters:
+        loop_rate: 5
+        stop_on_failure: true
+        waypoint_task_executor_plugin: "wait_at_waypoint"
+        wait_at_waypoint:
+          plugin: "nav2_waypoint_follower::WaitAtWaypoint"
+          enabled: true
+          waypoint_pause_duration: 0.0
+
+    # 地图服务器（提供静态 occupancy map）
+    map_server:
+      ros__parameters:
+        use_sim_time: false
+        yaml_filename: "/home/dongkuo/lt_ws/loc_ws/map/neibor_office2.yaml"
+
+    # 代价地图（全局 map 系 + 静态层；局部 map 系滚动窗口 + 激光障碍层）
+    global_costmap:
+      global_costmap:
+        ros__parameters:
+          global_frame: map
+          robot_base_frame: base_link
+          use_sim_time: false
+          resolution: 0.05
+          footprint_padding: 0.01
+          rolling_window: false   # 全局代价地图通常不使用滚动窗口
+          # 全局图基于静态地图，可选叠加障碍层
+          plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
+          static_layer:
+            plugin: "nav2_costmap_2d::StaticLayer"
+            map_subscribe_transient_local: true
+            subscribe_to_updates: false
+            map_topic: /map
+          obstacle_layer:
+            plugin: "nav2_costmap_2d::ObstacleLayer"
+            observation_sources: scan
+            scan:
+              topic: /scan
+              sensor_frame: p_body
+              max_obstacle_height: 2.0
+              clearing: true
+              marking: true
+              inf_is_valid: false
+              data_type: "LaserScan"
+              obstacle_range: 8.0
+              raytrace_range: 10.0
+              transform_tolerance: 1.0  
+          inflation_layer:
+            plugin: "nav2_costmap_2d::InflationLayer"
+            cost_scaling_factor: 7.5
+            inflation_radius: 0.6
+
+    local_costmap:  
+      local_costmap:
+        ros__parameters:
+          global_frame: odom  # 改为 odom 以优化计算（原 map 可保留，但 odom 更高效）
+          robot_base_frame: base_link
+          use_sim_time: false
+          robot_radius: 0.25
+          resolution: 0.05
+          footprint_padding: 0.01
+          rolling_window: true
+          width: 8.0  # 窗口大小，根据传感器视野调整
+          height: 8.0
+          origin_x: 0.0
+          origin_y: 0.0
+          # 添加更新/发布频率：核心实时参数
+          update_frequency: 10  # 更新频率 (Hz)，越高越实时
+          publish_frequency: 2.0  # 发布频率 (Hz)，用于 RViz 等
+          # 插件：已启用 obstacle_layer (动态障碍) + inflation_layer (安全膨胀)
+          plugins: ["obstacle_layer", "inflation_layer"]
+          obstacle_layer:
+            plugin: "nav2_costmap_2d::ObstacleLayer"
+            enabled: true  # 显式启用
+            observation_sources: scan
+            footprint_clearing_enabled: true  # 使用机器人足迹清除障碍
+            max_obstacle_height: 2.0
+            combination_method: 1  # 成本叠加方法 (1=叠加)
+            scan:
+              topic: /scan
+              sensor_frame: p_body
+              obstacle_range: 8.0  # 标记障碍范围 (m)
+              raytrace_range: 10.0  # 清除射线范围 (m)
+              obstacle_max_range: 8.0  # 最大障碍距离
+              obstacle_min_range: 0.0  # 最小障碍距离
+              raytrace_max_range: 10.0
+              raytrace_min_range: 0.0
+              clearing: true  # 清除旧障碍
+              marking: true   # 标记新障碍
+              data_type: "LaserScan"
+              inf_is_valid: false
+              transform_tolerance: 0.2  # TF 延迟容忍 (s)，添加以匹配控制器
+          inflation_layer:
+            plugin: "nav2_costmap_2d::InflationLayer"
+            enabled: true
+            cost_scaling_factor: 7.5  # 成本衰减因子 (高值=陡峭缓冲)
+            inflation_radius: 0.6  # 膨胀半径 (m)，机器人半径 + 安全裕度
+            inflate_unknown: false  # 不膨胀未知区域
+            inflate_around_unknown: true  # 在未知区域周围膨胀
+
+    # 恢复行为服务
+    behavior_server:
+      ros__parameters:
+        costmap_update_frequency: 5.0
+        cycle_frequency: 10.0
+        recovery_plugins: ["spin", "backup", "wait"]
+        spin:
+          plugin: "nav2_recoveries/Spin"
+        backup:
+          plugin: "nav2_recoveries/BackUp"
+        wait:
+          plugin: "nav2_recoveries/Wait"
+
+    # 生命周期管理器（仅管理我们启动的核心节点）
+    lifecycle_manager:
+      ros__parameters:
+        use_sim_time: false
+        autostart: true
+        node_names:
+          - map_server
+          - controller_server
+          - planner_server
+          - bt_navigator
+          - behavior_server
+          - waypoint_follower
+
+

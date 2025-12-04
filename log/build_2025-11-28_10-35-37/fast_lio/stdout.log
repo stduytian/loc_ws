@@ -1,0 +1,25 @@
+[  8%] Built target fast_lio__rosidl_generator_c
+[ 10%] Built target fast_lio__cpp
+[ 16%] Built target pcd_publisher
+[ 16%] Built target ament_cmake_python_copy_fast_lio
+[ 24%] Built target fast_lio__rosidl_typesupport_c
+[ 32%] Built target fast_lio__rosidl_typesupport_introspection_c
+[ 40%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[ 48%] Built target fast_lio__rosidl_typesupport_cpp
+[ 56%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[ 64%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[ 64%] Built target fast_lio
+[35m[1mConsolidate compiler generated dependencies of target fastlio_mapping[0m
+[ 67%] Built target fast_lio__py
+[ 70%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[ 75%] Built target fast_lio__rosidl_generator_py
+[ 81%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[ 86%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[ 91%] Built target fast_lio__rosidl_typesupport_c__pyext
+running egg_info
+writing fast_lio.egg-info/PKG-INFO
+writing dependency_links to fast_lio.egg-info/dependency_links.txt
+writing top-level names to fast_lio.egg-info/top_level.txt
+reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[ 91%] Built target ament_cmake_python_build_fast_lio_egg

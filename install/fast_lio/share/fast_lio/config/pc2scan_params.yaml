@@ -1,0 +1,12 @@
+pointcloud_to_laserscan:
+  ros__parameters:
+    min_height: -0.1           # 最小采样高度 (m)
+    max_height: 0.1           # 最大采样高度 (m)
+    angle_min: -3.1416        # 最小角度 (-π，360°)
+    angle_max: 3.1416         # 最大角度 (π)
+    angle_increment: 0.0087   # 角度分辨率 (~0.5°)
+    scan_time: 0.1            # 扫描时间 (s)
+    range_min: 0.1            # 最小距离 (m)
+    range_max: 100.0          # 最大距离 (m，Mid360 范围)
+    use_inf: true             # 无限距离用 inf
+    target_frame: "body"          # 空字符串：不使用 TF 变换；或 "base_link" 如果需要

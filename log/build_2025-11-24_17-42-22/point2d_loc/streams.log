@@ -1,0 +1,23 @@
+[0.014s] Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/point2d_loc': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/point2d_loc -- -j32 -l32
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target pointcloud_to_laserscan[0m
+[0.064s] [ 50%] Built target point_look
+[0.075s] [ 75%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan.cpp.o[0m
+[3.234s] [01m[K/home/dongkuo/lt_ws/loc_ws/src/point2d_loc/src/pointcloud_to_laserscan.cpp:[m[K In lambda function:
+[3.234s] [01m[K/home/dongkuo/lt_ws/loc_ws/src/point2d_loc/src/pointcloud_to_laserscan.cpp:79:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[Ktf_pub_timer_[m[K’
+[3.234s]    79 |     [01;31m[Ktf_pub_timer_[m[K = this->create_wall_timer(std::chrono::milliseconds(100),
+[3.234s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[3.234s] [01m[K/home/dongkuo/lt_ws/loc_ws/src/point2d_loc/src/pointcloud_to_laserscan.cpp:[m[K In constructor ‘[01m[KPointCloudTFNode::PointCloudTFNode()[m[K’:
+[3.234s] [01m[K/home/dongkuo/lt_ws/loc_ws/src/point2d_loc/src/pointcloud_to_laserscan.cpp:79:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Ktf_pub_timer_[m[K’
+[3.234s] [01m[K/home/dongkuo/lt_ws/loc_ws/src/point2d_loc/src/pointcloud_to_laserscan.cpp:75:37:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[3.234s]    75 |  = this->create_wall_timer[01;36m[K([m[Kstd::chrono::seconds(1), [this]()
+[3.234s]       |                           [01;36m[K^[m[K
+[3.234s] 
+[3.509s] [01m[K/home/dongkuo/lt_ws/loc_ws/src/point2d_loc/src/pointcloud_to_laserscan.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::OccupancyGrid PointCloudTFNode::loadMap(const string&, double, const string&)[m[K’:
+[3.509s] [01m[K/home/dongkuo/lt_ws/loc_ws/src/point2d_loc/src/pointcloud_to_laserscan.cpp:311:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresolution[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.509s]   311 | :string &pgm_file, [01;35m[Kdouble resolution[m[K, const std::string &override_image_file = "")
+[3.509s]       |                    [01;35m[K~~~~~~~^~~~~~~~~~[m[K
+[3.509s] 
+[7.342s] gmake[2]: *** [CMakeFiles/pointcloud_to_laserscan.dir/build.make:76: CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan.cpp.o] Error 1
+[7.342s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/pointcloud_to_laserscan.dir/all] Error 2
+[7.342s] gmake: *** [Makefile:146: all] Error 2
+[7.345s] Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/point2d_loc' returned '2': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/point2d_loc -- -j32 -l32

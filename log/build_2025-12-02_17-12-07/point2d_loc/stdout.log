@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target pointcloud_to_laserscan[0m
+[ 33%] Built target point_look
+[ 66%] Built target livox_to_scan
+[ 83%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan.cpp.o[0m

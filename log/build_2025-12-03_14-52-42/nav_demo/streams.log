@@ -1,0 +1,53 @@
+[0.013s] Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/nav_demo': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/nav_demo -- -j32 -l32
+[0.050s] [100%] Built target simple_navigator
+[0.061s] Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/nav_demo' returned '0': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/nav_demo -- -j32 -l32
+[0.073s] Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/nav_demo': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/nav_demo
+[0.077s] -- Install configuration: ""
+[0.077s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/lib/nav_demo/simple_navigator
+[0.077s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/launch
+[0.077s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/launch/nav2_odom_navigation1.launch.py
+[0.077s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/launch/nav.launch.py
+[0.077s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/launch/nav2_odom_navigation.launch.py
+[0.077s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps
+[0.078s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/first_floor1.yaml
+[0.078s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/first_floor1.pgm
+[0.078s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/my_2d_map1.yaml
+[0.079s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/office2.pgm
+[0.079s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/sec_floor.yaml
+[0.079s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/my_2d_map.pgm
+[0.079s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/neibor_office2.pgm
+[0.079s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/test.pcd
+[0.079s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/sec_floor.pgm
+[0.079s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/neibor_office.pgm
+[0.080s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/office1.yaml
+[0.080s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/my_2d_map1.pgm
+[0.080s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/office2.yaml
+[0.080s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/office1.pgm
+[0.080s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/neibor_office.yaml
+[0.080s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/neibor_office2.yaml
+[0.080s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/maps/my_2d_map.yaml
+[0.080s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/rviz
+[0.080s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/rviz/navi.rviz
+[0.081s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/config
+[0.081s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/config/controller.yaml
+[0.081s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/config/nav2_params_wpr.yaml
+[0.081s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/config/nav2_params2.yaml
+[0.081s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/config/nav2_params.yaml
+[0.081s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/config/nav2_params copy.yaml
+[0.081s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/config/nav2_params1.yaml
+[0.081s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/ament_index/resource_index/package_run_dependencies/nav_demo
+[0.081s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/ament_index/resource_index/parent_prefix_path/nav_demo
+[0.081s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/environment/ament_prefix_path.sh
+[0.081s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/environment/ament_prefix_path.dsv
+[0.082s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/environment/path.sh
+[0.082s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/environment/path.dsv
+[0.082s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/local_setup.bash
+[0.082s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/local_setup.sh
+[0.082s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/local_setup.zsh
+[0.082s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/local_setup.dsv
+[0.082s] -- Installing: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/package.dsv
+[0.082s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/ament_index/resource_index/packages/nav_demo
+[0.083s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/cmake/nav_demoConfig.cmake
+[0.083s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/cmake/nav_demoConfig-version.cmake
+[0.083s] -- Up-to-date: /home/dongkuo/lt_ws/loc_ws/install/nav_demo/share/nav_demo/package.xml
+[0.101s] Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/nav_demo' returned '0': CMAKE_PREFIX_PATH=/home/dongkuo/lt_ws/loc_ws/install/scout_base:/opt/ros/humble:/home/dongkuo/lt_ws/loc_ws/install/ugv_sdk:/home/dongkuo/lt_ws/loc_ws/install/scout_msgs:/home/dongkuo/lt_ws/loc_ws/install/scout_description:/home/dongkuo/lt_ws/loc_ws/install/point2d_loc:/home/dongkuo/lt_ws/loc_ws/install/nav_demo:/home/dongkuo/lt_ws/loc_ws/install/fast_lio:/home/dongkuo/lt_ws/loc_ws/install/livox_ros_driver2:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_description:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera:/home/dongkuo/lt_ws/realsense_ws/install/realsense2_camera_msgs:/home/dongkuo/lt_ws/realsense_ws/install/depth_to_cloud_converter:/opt/vulcanexus/humble /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/nav_demo
