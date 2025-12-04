@@ -1,4 +1,0 @@
-Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/ugv_sdk': /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/ugv_sdk -- -j32 -l32
-Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/ugv_sdk -- -j32 -l32
-Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/ugv_sdk': /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/ugv_sdk
-Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/dongkuo/lt_ws/loc_ws/build/ugv_sdk

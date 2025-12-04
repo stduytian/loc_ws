@@ -1,7 +1,0 @@
-{
-  "package_name": "livox_ros_driver2",
-  "non_idl_tuples": [
-    "/home/dongkuo/lt_ws/loc_ws/src/livox_ros_driver2:msg/CustomPoint.msg",
-    "/home/dongkuo/lt_ws/loc_ws/src/livox_ros_driver2:msg/CustomMsg.msg"
-  ]
-}

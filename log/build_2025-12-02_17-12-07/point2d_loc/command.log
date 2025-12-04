@@ -1,2 +1,0 @@
-Invoking command in '/home/dongkuo/lt_ws/loc_ws/build/point2d_loc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/point2d_loc -- -j32 -l32
-Invoked command in '/home/dongkuo/lt_ws/loc_ws/build/point2d_loc' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dongkuo/lt_ws/loc_ws/build/point2d_loc -- -j32 -l32
